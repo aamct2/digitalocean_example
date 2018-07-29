@@ -30,7 +30,7 @@ start:
 ## Production #################
 
 create-droplet:
-	$(MACHINE) create --driver digitalocean --digitalocean-access-token ${DO_ACCESS} $(project_name)
+	$(MACHINE) create --driver digitalocean --digitalocean-access-token ${DO_ACCESS} --digitalocean-region "lon1" $(project_name)
 .PHONY: create-droplet
 
 env-droplet:
