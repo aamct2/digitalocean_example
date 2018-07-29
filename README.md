@@ -1,4 +1,4 @@
-# foo
+# digitalocean_example
 
 Simple single-page React app served up by nginx in a Docker container.
 
